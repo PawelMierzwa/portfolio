@@ -93,9 +93,6 @@ export default {
     },
   },
   mounted() {
-    if (this.mobileCheck()) {
-      window.location = "https://m.cnsh.dev";
-    }
     this.calculateSectionOffsets();
     window.addEventListener('wheel', this.handleMouseWheel, { passive: false });
     window.addEventListener('touchstart', this.touchStart, { passive: false });
@@ -105,6 +102,11 @@ export default {
     window.removeEventListener('wheel', this.handleMouseWheel, { passive: false });
     window.removeEventListener('touchstart', this.touchStart);
     window.removeEventListener('touchmove', this.touchMove);
+  },
+  created() {
+    if (this.mobileCheck()) {
+      window.location = "https://m.cnsh.dev";
+    }
   },
 };
 </script>

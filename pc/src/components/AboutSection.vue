@@ -37,7 +37,7 @@
             <h2>Contact</h2>
             <ul id="about-links">
                 <li>
-                    <a href="https://www.linkedin.com/in/paweł-mierzwa/">
+                    <a href="https://www.linkedin.com/in/cnsh/">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img"
                             aria-labelledby="LinkedinIcoTitle" fill="#362e2b" class="ico">
                             <title id="LinkedinIcoTitle">My LinkedIn</title>
